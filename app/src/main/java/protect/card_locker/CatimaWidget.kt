@@ -33,12 +33,4 @@ class CatimaWidget : AppWidgetProvider() {
             Log.e("RV", "updateWidget")
         }
     }
-
-    override fun onEnabled(context: Context) {
-        // Вызывается при первом добавлении виджета
-    }
-
-    override fun onDisabled(context: Context) {
-        // Вызывается при удалении последнего экземпляра
-    }
 }
